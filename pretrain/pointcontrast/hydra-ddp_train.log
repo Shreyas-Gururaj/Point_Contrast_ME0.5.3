@@ -1,0 +1,128 @@
+[2021-10-26 01:57:02,759][hydra._internal.hydra][DEBUG] - Hydra 1.1.1
+[2021-10-26 01:57:02,762][hydra._internal.hydra][DEBUG] - ===========
+[2021-10-26 01:57:02,763][hydra._internal.hydra][DEBUG] - Installed Hydra Plugins
+[2021-10-26 01:57:02,763][hydra._internal.hydra][DEBUG] - ***********************
+[2021-10-26 01:57:02,764][hydra._internal.hydra][DEBUG] - 	ConfigSource:
+[2021-10-26 01:57:02,764][hydra._internal.hydra][DEBUG] - 	-------------
+[2021-10-26 01:57:02,764][hydra._internal.hydra][DEBUG] - 		FileConfigSource
+[2021-10-26 01:57:02,765][hydra._internal.hydra][DEBUG] - 		ImportlibResourcesConfigSource
+[2021-10-26 01:57:02,767][hydra._internal.hydra][DEBUG] - 		StructuredConfigSource
+[2021-10-26 01:57:02,768][hydra._internal.hydra][DEBUG] - 	CompletionPlugin:
+[2021-10-26 01:57:02,768][hydra._internal.hydra][DEBUG] - 	-----------------
+[2021-10-26 01:57:02,768][hydra._internal.hydra][DEBUG] - 		BashCompletion
+[2021-10-26 01:57:02,769][hydra._internal.hydra][DEBUG] - 		FishCompletion
+[2021-10-26 01:57:02,769][hydra._internal.hydra][DEBUG] - 		ZshCompletion
+[2021-10-26 01:57:02,769][hydra._internal.hydra][DEBUG] - 	Launcher:
+[2021-10-26 01:57:02,769][hydra._internal.hydra][DEBUG] - 	---------
+[2021-10-26 01:57:02,770][hydra._internal.hydra][DEBUG] - 		BasicLauncher
+[2021-10-26 01:57:02,770][hydra._internal.hydra][DEBUG] - 		BaseSubmititLauncher
+[2021-10-26 01:57:02,770][hydra._internal.hydra][DEBUG] - 		LocalLauncher
+[2021-10-26 01:57:02,771][hydra._internal.hydra][DEBUG] - 		SlurmLauncher
+[2021-10-26 01:57:02,771][hydra._internal.hydra][DEBUG] - 	Sweeper:
+[2021-10-26 01:57:02,771][hydra._internal.hydra][DEBUG] - 	--------
+[2021-10-26 01:57:02,771][hydra._internal.hydra][DEBUG] - 		BasicSweeper
+[2021-10-26 01:57:02,772][hydra._internal.hydra][DEBUG] - 
+[2021-10-26 01:57:02,772][hydra._internal.hydra][DEBUG] - Config search path
+[2021-10-26 01:57:02,772][hydra._internal.hydra][DEBUG] - ******************
+[2021-10-26 01:57:02,998][hydra._internal.hydra][DEBUG] - | Provider | Search path                                                  |
+[2021-10-26 01:57:02,999][hydra._internal.hydra][DEBUG] - ---------------------------------------------------------------------------
+[2021-10-26 01:57:03,000][hydra._internal.hydra][DEBUG] - | hydra    | pkg://hydra.conf                                             |
+[2021-10-26 01:57:03,000][hydra._internal.hydra][DEBUG] - | main     | file:///src/PointContrast-main/pretrain/pointcontrast/config |
+[2021-10-26 01:57:03,001][hydra._internal.hydra][DEBUG] - | schema   | structured://                                                |
+[2021-10-26 01:57:03,001][hydra._internal.hydra][DEBUG] - ---------------------------------------------------------------------------
+[2021-10-26 01:57:03,147][hydra._internal.hydra][INFO] - 
+[2021-10-26 01:57:03,148][hydra._internal.hydra][DEBUG] - Defaults Tree
+[2021-10-26 01:57:03,148][hydra._internal.hydra][DEBUG] - *************
+[2021-10-26 01:57:03,148][hydra._internal.hydra][INFO] - <root>:
+[2021-10-26 01:57:03,149][hydra._internal.hydra][INFO] -   hydra/config:
+[2021-10-26 01:57:03,149][hydra._internal.hydra][INFO] -     hydra/output: default
+[2021-10-26 01:57:03,149][hydra._internal.hydra][INFO] -     hydra/launcher: submitit_local
+[2021-10-26 01:57:03,149][hydra._internal.hydra][INFO] -     hydra/sweeper: basic
+[2021-10-26 01:57:03,150][hydra._internal.hydra][INFO] -     hydra/help: default
+[2021-10-26 01:57:03,150][hydra._internal.hydra][INFO] -     hydra/hydra_help: default
+[2021-10-26 01:57:03,150][hydra._internal.hydra][INFO] -     hydra/hydra_logging: hydra_debug
+[2021-10-26 01:57:03,151][hydra._internal.hydra][INFO] -     hydra/job_logging: default
+[2021-10-26 01:57:03,151][hydra._internal.hydra][INFO] -     hydra/callbacks: null
+[2021-10-26 01:57:03,151][hydra._internal.hydra][INFO] -     hydra/env: default
+[2021-10-26 01:57:03,152][hydra._internal.hydra][INFO] -     _self_
+[2021-10-26 01:57:03,152][hydra._internal.hydra][INFO] -   defaults.yaml
+[2021-10-26 01:57:03,295][hydra._internal.hydra][DEBUG] - 
+[2021-10-26 01:57:03,296][hydra._internal.hydra][DEBUG] - Defaults List
+[2021-10-26 01:57:03,296][hydra._internal.hydra][DEBUG] - *************
+[2021-10-26 01:57:03,296][hydra._internal.hydra][DEBUG] - | Config path                     | Package             | _self_ | Parent       | 
+[2021-10-26 01:57:03,297][hydra._internal.hydra][DEBUG] - ----------------------------------------------------------------------------------
+[2021-10-26 01:57:03,297][hydra._internal.hydra][DEBUG] - | hydra/output/default            | hydra               | False  | hydra/config |
+[2021-10-26 01:57:03,297][hydra._internal.hydra][DEBUG] - | hydra/launcher/submitit_local   | hydra.launcher      | False  | hydra/config |
+[2021-10-26 01:57:03,298][hydra._internal.hydra][DEBUG] - | hydra/sweeper/basic             | hydra.sweeper       | False  | hydra/config |
+[2021-10-26 01:57:03,298][hydra._internal.hydra][DEBUG] - | hydra/help/default              | hydra.help          | False  | hydra/config |
+[2021-10-26 01:57:03,298][hydra._internal.hydra][DEBUG] - | hydra/hydra_help/default        | hydra.hydra_help    | False  | hydra/config |
+[2021-10-26 01:57:03,299][hydra._internal.hydra][DEBUG] - | hydra/hydra_logging/hydra_debug | hydra.hydra_logging | False  | hydra/config |
+[2021-10-26 01:57:03,299][hydra._internal.hydra][DEBUG] - | hydra/job_logging/default       | hydra.job_logging   | False  | hydra/config |
+[2021-10-26 01:57:03,299][hydra._internal.hydra][DEBUG] - | hydra/env/default               | hydra.env           | False  | hydra/config |
+[2021-10-26 01:57:03,300][hydra._internal.hydra][DEBUG] - | hydra/config                    | hydra               | True   | <root>       |
+[2021-10-26 01:57:03,300][hydra._internal.hydra][DEBUG] - | defaults.yaml                   |                     | False  | <root>       |
+[2021-10-26 01:57:03,301][hydra._internal.hydra][DEBUG] - ----------------------------------------------------------------------------------
+[2021-10-26 01:57:03,475][hydra._internal.hydra][DEBUG] - Config
+[2021-10-26 01:57:03,475][hydra._internal.hydra][DEBUG] - ******
+[2021-10-26 01:57:03,480][hydra._internal.hydra][INFO] - trainer:
+  trainer: HardestContrastiveLossTrainer
+  save_freq_epoch: 1
+  batch_size: 32
+  use_hard_negative: true
+  hard_negative_max_num: 3000
+  num_pos_per_batch: 1024
+  num_hn_samples_per_batch: 256
+  neg_thresh: 1.4
+  pos_thresh: 0.1
+  neg_weight: 1.0
+  use_random_scale: false
+  min_scale: 0.8
+  max_scale: 1.2
+  use_random_rotation: true
+  rotation_range: 360
+  stat_freq: 1
+  lr_update_freq: 250
+  positive_pair_search_voxel_size_multiplier: 1.5
+net:
+  model: Res16UNet34C
+  model_n_out: 32
+  conv1_kernel_size: 3
+  normalize_feature: true
+  dist_type: L2
+opt:
+  optimizer: SGD
+  max_iter: 60000
+  lr: 0.1
+  momentum: 0.8
+  sgd_momentum: 0.9
+  sgd_dampening: 0.1
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  weight_decay: 0.0001
+  bn_momentum: 0.05
+  exp_gamma: 0.99
+  scheduler: ExpLR
+misc:
+  out_dir: /src/PointContrast-main/results_test
+  use_gpu: true
+  num_gpus: 1
+  weight: null
+  config: null
+  lenient_weight_loading: false
+  train_num_thread: 2
+  nn_max_n: 500
+  nceT: 0.4
+  npos: 4096
+  num_workers: 2
+  train_limit_numpoints: 0
+  data_aug_scale_min: 0.9
+  data_aug_scale_max: 1.1
+  cache_data: false
+  ignore_label: 255
+  return_transformation: false
+data:
+  dataset: ScanNetMatchPairDataset
+  voxel_size: 0.025
+  dataset_root_dir: /root/pretrain/pointcontrast/example_dataset
+  scannet_match_dir: /pretrain/pointcontrast/overlap-30-50p-subset.txt
+

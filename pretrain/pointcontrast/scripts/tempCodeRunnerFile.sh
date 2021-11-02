@@ -1,0 +1,1 @@
+PATH+=C:\Users\shrey\AppData\Local\Programs\Python\Python38\python.exe
